@@ -73,7 +73,7 @@ public class LoginFrame extends JFrame {
 //                                JOptionPane.INFORMATION_MESSAGE);
 //
                         dispose();
-                        File f = new File(sArray[0]);
+                        File f = new File(sArray[0] + ".csv");
                         if(f.exists()) {
                             /* show alert */
                             Date date = new Date();
