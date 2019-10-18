@@ -171,7 +171,7 @@ public class FirstWindow extends JFrame {
         File f = new File(username + ".csv");
         if(f.exists()) {
             /* show alert */
-            username = username + timestamp;
+            //username = username + timestamp;
         }
         FileWriter csvWriter = new FileWriter(username + ".csv", window);
         if (!window) {
